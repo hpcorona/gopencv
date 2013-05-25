@@ -19,4 +19,4 @@ func init() {
 
 }
 
-type HaarClassifierCascade C.CvHaarClassifierCascade
+//type HaarClassifierCascade C.CvHaarClassifierCascade
