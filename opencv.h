@@ -11,16 +11,19 @@
 //  OpenCV 2.0.x
 #   include <opencv/cv.h>
 #   include <opencv/highgui.h>
+#	include <opencv2/objdetect/objdetect.h>
 #elif defined(WIN32) || defined(_WIN32)
 //  OpenCV 2.4.x
 #   include <opencv/cv.h>
 #   include <opencv/highgui.h>
+#	include <opencv2/objdetect/objdetect.h>
 #   include <opencv2/photo/photo_c.h>
 #   include <opencv2/imgproc/imgproc_c.h>
 #else   // Mac OS X ?
 //  OpenCV 2.4.x ?
 #   include <opencv/cv.h>
 #   include <opencv/highgui.h>
+#	include <opencv2/objdetect/objdetect.h>
 #   include <opencv2/photo/photo_c.h>
 #   include <opencv2/imgproc/imgproc_c.h>
 #endif
